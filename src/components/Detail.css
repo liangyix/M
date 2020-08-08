@@ -1,0 +1,331 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	position: relative;
+	background: #eee;
+}
+header {
+    width: 100%;
+    height: 4rem;
+    background: linear-gradient(to right, #FF6825,#FF127A);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+   display: flex;
+   justify-content: space-between;
+}
+header ul{
+	display: flex;
+}
+header img{
+	width: 4rem;
+	height: 4rem;
+}
+.header_one{
+	list-style: none;
+	margin-right: 3rem;
+}
+.header_one li{
+	padding: 0.8rem 1rem;
+    text-align: center;
+    flex-grow: 1;
+    color: white;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+}
+.header_two li{
+	line-height: 4rem;
+	width: 0.7rem;
+	text-align: center;
+	color: white;
+}
+
+.box{
+	position: relative;
+	overflow: hidden;
+	margin-top:4rem;
+	width: 100%;
+    height: 32rem;
+    background-color: white;
+}
+.box_one{
+	width: 100%;
+    list-style: none;
+    position: relative;
+}
+.box_one li{
+	width: 100%;
+	
+}
+.box_one li img{
+	width: 100%;
+}
+img{
+	border: none;
+	vertical-align: middle;
+}
+.price{
+	padding: 1rem;
+}
+.price p:nth-child(1){
+	color: red;
+    font-size: 1.4rem;
+}
+.price p:nth-child(1) b{
+	font-size: 2rem;
+}
+.price p:nth-child(1) s{
+	color: gray;
+}
+.price p:nth-child(1) span{
+	border: 0.1rem solid red;
+	font-size: 1rem;
+	margin-left: 0.5rem;
+}
+.price p:nth-child(2){
+	font-size: 1.3rem;
+	letter-spacing: 0.1rem;
+}
+.price p:nth-child(3){
+	font-size: 1.3rem;
+}
+.price p:nth-child(4){
+	color: gray;
+	font-size: 1.2rem;
+	width: 100%;
+	padding-bottom: 1rem;
+}
+.price p:nth-child(5){
+	background-color: gainsboro;
+	font-size: 1rem;
+	width: 94%;
+	padding: 1rem;
+}
+.price p:nth-child(5) span{
+	margin-left: 0.5rem;
+}
+.price p:nth-child(6){
+	padding-top: 1rem;
+}
+.sect{
+	width: 100%;
+}
+.sect li{
+	position: relative;
+    background-color: white;
+    list-style: none;
+    border-bottom: 0.1rem solid gainsboro;
+}
+.sect li p{
+	font-size: 1.2rem;
+    padding: 1rem;
+}
+.span_one{
+	margin-left: 5%;
+}
+.span_two{
+	display: inline-block;
+    color: #aaa;
+    float: right;
+    text-align: center;
+    margin-top: -0.9rem;
+}
+.colors{
+	color: #FF513C;
+}
+.sect li:nth-child(6){
+	margin-top: 1rem;
+	position: relative;
+}
+.span_thr{
+	display: inline-block;
+	width: 25%;
+    position: absolute;
+    top: 32%;
+    right: 14%;
+    font-size: 1.2rem;
+    color: #FF513C;
+    text-align: right;
+}
+.span_twos{
+	display: inline-block;
+    color: #aaa;
+    float: right;
+    text-align: center;
+    margin-top: -3.3rem;
+    margin-right: 1rem;
+}
+.span_four a{
+	display: flex;
+	color: black;
+}
+.imgss{
+	width: 20%;
+	height: 20%;
+	border: 0.1rem solid gainsboro;
+}
+.span_twoi{
+	display: inline-block;
+    color: #aaa;
+    float: right;
+    text-align: center;
+    margin-top: -3.9rem;
+    margin-left: 11.4rem;
+}
+.buttom{
+	width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: white;
+   
+}
+.buttom ul{
+	width: 150%;
+    list-style: none;
+    display: flex; overflow: scroll;
+}
+.buttom ul li{
+	padding: 1rem;
+}
+.ps{
+	color: red;
+	font-size: 1.1rem;
+}
+.ps s{
+	color: lightslategray;
+	font-size: 1rem;
+}
+.buttom a{
+	color: black;
+	text-align: center;
+	text-decoration: none
+}
+.tu{
+	width: 100%;
+    background-color: white;
+    margin-top: 1rem;
+}
+.tu p{
+	text-align: center;
+    padding: 2rem 0;
+    font-size: 1.4rem;
+}
+.illu{
+	width: 100%;
+}
+.end{
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-bottom: 4rem;
+}
+.end a{
+	text-decoration: none;
+	width: 50%;
+	padding: 1rem 0;
+}
+.pss{
+	padding: 0 1rem;
+	color: dimgray;
+	line-height: 1.4rem;
+}
+.psi{
+	padding: 0 1rem;
+	color: lightslategray;
+	font-size: 1rem;
+}
+.psi span:nth-child(1){
+	color: #FE635E;
+	font-size: 1.3rem;
+}
+.psi span:nth-child(2){
+	float: right;
+	font-size: 1rem;
+}
+footer{
+	width: 100%;
+	height: 4rem;
+	background-color: white;
+	border-top: 0.1rem solid gainsboro;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	
+}
+footer>span:first-child{
+	text-align: center;
+	width: 48%;
+	line-height: 1.4rem;
+	padding: 0.5rem 0 0 0;
+	
+}
+footer>span:last-child{
+	text-align: center;
+	width: 52%;
+	line-height: 4rem;
+	font-size: 1.3rem;
+}
+footer>span{
+	display: flex;
+}
+footer>span>a{
+	color: gray;
+	flex-grow: 1;
+	text-decoration: none;
+}
+.ss a:first-child{
+	background-color: #FFB03F;
+	color: white;
+}
+.ss a:last-child{
+	background-color: #FF5E53;
+	color: white;
+}
+.shang{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 22;
+	background-color: rgba(000,000,000,0.5);
+	display: none;
+}
+.dian{
+	width: 100%;
+	height: 40%;
+}
+.nr{
+	width: 100%;
+	height: 60%;
+	background-color: white;
+	text-align: center;
+	position: relative;
+}
+.xia{
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	line-height: 4rem;
+	font-size: 1.3rem;
+	position: absolute;
+	bottom: 2%;
+	left: 0;
+}
+.xia>a{
+	flex-grow: 1;
+	text-decoration: none;
+}
+.gb{
+	width: 10%;
+	padding: 1rem;
+	position: absolute;
+	top: 5%;
+	right: 2%;
+	background-color: whitesmoke;
+}

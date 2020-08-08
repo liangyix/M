@@ -1,0 +1,403 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+
+}
+.head{
+	width: 100%;
+	height: 5rem;
+	background-color: #00bf9d;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+.head a{
+	display: inline-block;
+	height: 100%;
+	width: 6rem;
+	font-size: 2.5rem;
+	line-height: 5rem;
+	margin-left: 1rem;
+	color: white;
+}
+
+.head .logo {
+    background: url(http://m.vnasi.cn/statics/images/icon/vns_icon_sprites_01.png) no-repeat;
+    display: inline-block;
+    height: 3.6rem;
+    width: 3rem;
+}
+.head .logo {
+    background-size: 138px 126px;
+    background-position: 0 0;
+    margin: 8px auto auto 10px;
+}
+.head .status {
+    background: url(http://m.vnasi.cn/statics/images/icon/vns_icon_sprites_01.png) no-repeat;
+    display: inline-block;
+    height: 3.6rem;
+    width: 3rem;
+}
+.head .status {
+    background-size: 155px 141px;
+    background-position: -67px 0;
+    margin: 10px 10px auto auto;
+}
+.span{
+	display: inline-block;
+	height: 100%;
+	width: 6rem;
+	font-size: 2rem;
+	line-height: 5rem;
+	margin-right: 1rem;
+	color: white;
+}
+.inp{
+	height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.inp input{
+	width: 25rem;
+	height: 3.4rem;
+	margin: 0.5em 0;
+	padding-left: 1rem;
+	margin-right: -5rem;
+	border-radius:2rem ;
+	background-color: #bfefe6;
+	font-size: 1.6rem;
+	border: 0;outline: none;
+	color: #666;
+	position: relative;
+}
+input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+    color: white;
+}
+.inp span{
+	position: absolute;
+	right: 2.5rem;
+	top: 1.7rem;
+}
+.img_main {
+		padding-bottom:18rem ;
+			width: 100%;
+			position: relative;
+		}
+		
+		.main_header {
+			
+			width: 100%;
+			height: 17rem;
+			overflow: hidden;
+			position: absolute;
+		}
+		
+		.img_main>ul>li {
+			width: 100%;
+			position: absolute;
+			top: 0;
+		}
+		
+		.row {
+			margin-top: 15.5rem;
+			display: flex;
+			width: 2rem;
+			position: absolute;
+			margin-left: 18rem;
+		}
+		
+		.row>p {
+			padding-left: 1rem;
+			display: inline-block;
+			background-color: white;
+			width: 5rem;
+			border-radius: 50%;
+			height: 1rem;
+			margin-right: 0.2rem;
+		}
+		
+	    .body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+.menubox {
+    background: #fff;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+    display: flex;
+    z-index: 0;
+}
+.menuicon span {
+    background: url(http://m.vnasi.cn/statics/images/icon/vns_icon_sprites_01.png) no-repeat;
+    width: 3.4rem;
+    height: 3.4rem;
+    display: inline-block;
+    -webkit-background-size: 15rem 13.6rem;
+    background-size: 15rem 13.6rem;
+    margin-left: 0.8rem;
+    margin-top: 0.5rem;
+}
+.menubox div {
+    
+    width: 20%;
+    height: 80px;
+}
+.menubox .menuicon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-left: 1rem
+}
+.menuicon .flowers {
+    background-position: 0.7rem -36px;
+}
+.menuicon .more {
+    background-position: -12.4rem -3.7rem;
+    width: 3rem;
+    margin-left: 1rem;
+}
+.menuicon .gift {
+    background-position: -9.2rem -3.9rem;
+}
+.menuicon .baskets {
+    background-position: -5.8rem -3.9rem;
+}
+.menuicon .cake {
+    background-position: -2.6rem -3.8rem;
+}
+.menubox p:last-child {
+    text-align: center;
+    color: #666;
+    margin-top: 0.5rem;
+}
+.contacts {
+    padding: 1rem 0.5rem 0 0.5rem;
+    text-align: center;
+    z-index: 0;
+}
+.contacts a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 48%;
+    border-radius: 1.1rem;
+    line-height: 1.8rem;
+    color: #fff;
+}
+.contacts .tel {
+    background-color: #ff6600;
+}
+.contacts .kefu {
+    background-color: #8b8ffa;
+}
+.contacts .tel .icon {
+    top: 0.5rem;
+    background-position: -2.9rem 0;
+}
+.contacts .kefu .icon {
+    background-position: -5.6rem 0.1rem;
+    top: 0.5rem;
+}
+.contacts .icon {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    background: url(http://m.vnasi.cn/statics/images/icon/vns_icon_sprites_01.png) no-repeat;
+    -webkit-background-size: 12.9rem 11.8rem;
+    background-size: 12.9rem 11.8rem;
+    position: relative;
+    margin-right:0.5rem;
+}
+.contacts a b {
+    font-weight: normal;
+    position: relative;
+    top: -0.3rem;
+}
+.list_title {
+    border-top: 1px solid #eeeeee;
+    width: 94%;
+    display: block;
+    padding: 1rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    color: #666;
+    font-weight: 500;
+    line-height: 3rem;
+    font-size: 1.6rem;
+}
+.lmore {
+    float: right;
+    color: #aaaaaa;
+    font-size: 1.4rem;
+}
+.list_title:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.lists {	
+    background-color: #fff;
+    margin: 0;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+
+
+.lists li{   
+    width: 45%;
+    padding: 0.88rem;
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee;
+}
+@media (max-width: 413px) and (min-width: 360px)
+.lists li .img {
+    height: 167px;
+}
+
+.lists li .img {
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lists li>p {
+    margin-top: 0;
+}
+.homelist li>p {
+    text-align: center;
+}
+.lists a {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.lists li img {
+    height: inherit;
+}
+
+.lists li img {
+    width: 100%;
+}
+.lists li .tname {
+    font-weight: 400;
+    margin-bottom: 0;
+    font-size: 1rem;
+    min-height: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lists li .price {
+    font-weight: 400;
+    color: #FF6600;
+    margin-bottom: 0;
+    min-height: 25px;
+    font-size: 1rem;
+}
+.footer{
+	width: 100%;
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+}
+.footes ul{
+	height: 100%;
+	display: flex;
+}
+.footes li{
+	width: 25%;
+
+	margin-top:0.1rem ;
+}
+.list-one .active .f-icon{
+	background-position: 0 -67px;
+}
+.f-icon{
+	width: 26px;
+    height: 27px;
+    margin: 0.1rem auto;
+    background: url(http://m.vnasi.cn/statics/images/icon/vns_icon_sprites_01.png) no-repeat;
+    -webkit-background-size: 134px 126px;
+    background-size: 134px 126px;
+}
+.list-one .f-icon {
+    background-position: 0 -97px;
+}
+.list-two .f-icon {
+    background-position: -30px -97px;
+}
+.list-thr .f-icon {
+    background-position: -60px -97px;
+}
+.list-four .f-icon {
+    background-position: -90px -97px;
+}
+.tst{
+	text-align: center;
+    color: #333;
+    font-size: 14px;
+    text-indent: inherit;
+}
+.list-thr{
+	position: relative;
+}
+.list-thr span{
+	position: absolute;
+    top: 0;
+    left: 58%;
+    border: 1px solid #f60;
+    background-color: #fff;
+    color: #f60;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 14px;
+    display: block;
+    border-radius: 50%;
+    font-size: 12px;
+}
